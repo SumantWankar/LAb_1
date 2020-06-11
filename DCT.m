@@ -4,7 +4,7 @@ clc; clear all; close all;
 
 
 %% Reading an input image 
-image=double((imread('Lenna.png')));
+image=double((imread('m.png')));
 
 %% Computing the size of an image
 [m1,n1,dim]=size(image);
